@@ -6,7 +6,7 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 msg = sys.argv
 msg.pop(0)  # remove the first argument; the path to the file
 
-# msg[0] = argument
+# msg[0] = file path
 message = msg[1]
 key = msg[2]
 
