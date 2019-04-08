@@ -16,6 +16,7 @@ key_nums = []
 def help_func(invalid=False):
     if invalid:
         print("ERROR: Invalid option. Usage:")
+    # TODO: make this legit using option parser
     print("vingere.py\n\t[-e \"message\" \"key\"]\n\t[-d \"message\" \"key\"]\n\t[-b \"message\" path-to-wordlist]")
 
 
